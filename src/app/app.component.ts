@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { DetalheNoticiaComponent } from './detalhe-noticia/detalhe-noticia.component';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
