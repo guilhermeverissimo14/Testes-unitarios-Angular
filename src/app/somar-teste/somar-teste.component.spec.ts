@@ -16,15 +16,12 @@ describe('SomarTesteComponent', () => {
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
-  // beforeEach(() => {
-  //   component = new MeuComponenteComponent();
-  // });
 
   it('deve criar o aplicativo', () => {
     expect(component).toBeTruthy();
   });
 
   it('deve somar dois números corretamente', () => {
-    expect(component.somar(2, 3)).toEqual(5);
+    expect(component.somar(2,3)).toEqual(5);
   });
 });

@@ -6,8 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./variavel-test.component.scss']
 })
 export class VariavelTestComponent {
-    variavel1: string = "atualizando";
-    Variavel(variavel2 = "valor inicial"):string{
-      return variavel2;
+    Variavel(variavel1 = "valor inicial"):string{
+      return variavel1;
     }
 }

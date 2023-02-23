@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SomarTesteComponent } from './somar-teste/somar-teste.component';
 import { VariavelTestComponent } from './variavel-test/variavel-test.component';
+import { ObservablesComponent } from './observables/observables.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SomarTesteComponent,
     VariavelTestComponent,
+    ObservablesComponent,
   ],
   imports: [
     BrowserModule,
